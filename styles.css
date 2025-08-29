@@ -351,136 +351,25 @@ p {
     opacity: 0.9;
 }
 
-/* Pricing Section */
-.pricing {
+/* About Me Section */
+.about-me {
     padding: 80px 0;
     background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
 }
 
-.pricing-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 2rem;
-    margin-bottom: 4rem;
-}
-
-.pricing-card {
-    background: white;
-    padding: 2.5rem;
-    border-radius: 15px;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+.about-me-content {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
-    position: relative;
-    transition: transform 0.3s ease;
 }
 
-.pricing-card:hover {
-    transform: translateY(-10px);
-}
-
-.pricing-card.featured {
-    border: 3px solid #1E90FF;
-    transform: scale(1.05);
-}
-
-.pricing-card.featured:before {
-    content: "MAIS POPULAR";
-    position: absolute;
-    top: -15px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #1E90FF;
-    color: white;
-    padding: 0.5rem 1rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
-    font-weight: 600;
-}
-
-.pricing-subtitle {
+.about-me-content p {
+    font-size: 1.1rem;
+    line-height: 1.8;
     color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0;
 }
 
-.pricing-description {
-    color: #666;
-    margin-bottom: 2rem;
-    line-height: 1.6;
-}
-
-.price {
-    margin: 2rem 0;
-    display: flex;
-    align-items: baseline;
-    justify-content: center;
-    gap: 0.2rem;
-}
-
-.currency {
-    font-size: 1.2rem;
-    color: #666;
-}
-
-.amount {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #333;
-}
-
-.cents {
-    font-size: 1.5rem;
-    color: #666;
-}
-
-.period {
-    font-size: 1rem;
-    color: #666;
-}
-
-.payment-info {
-    color: #666;
-    font-size: 0.9rem;
-    margin-bottom: 1.5rem;
-}
-
-.includes {
-    background: #f8f9fa;
-    padding: 1rem;
-    border-radius: 5px;
-    margin: 1rem 0;
-    font-size: 0.9rem;
-}
-
-.features-list {
-    list-style: none;
-    text-align: left;
-    margin: 1.5rem 0;
-}
-
-.features-list li {
-    padding: 0.5rem 0;
-    padding-left: 1.5rem;
-    position: relative;
-    font-size: 0.9rem;
-    line-height: 1.5;
-}
-
-.features-list li:before {
-    content: "✓";
-    position: absolute;
-    left: 0;
-    color: #32CD32;
-    font-weight: bold;
-}
-
-.help-section {
-    text-align: center;
-    padding: 3rem;
-    background: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
-}
 
 /* Contests Section */
 .contests {
